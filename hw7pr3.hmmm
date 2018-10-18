@@ -1,0 +1,23 @@
+# hw7 problem 3
+#
+# Name(s): Mackenzie Rutherford
+#
+# Hmmm...
+#
+
+# For cs5gold, you'll write a fibonacci program
+# For cs5black, it's a recursive Hanoi-solving program
+
+# This is a placeholder whose code you'll replace:
+00 read r1          # get # from user to r1
+01 setn r2 0        # set r2 to 0
+02 setn r3 1        # set r3 to 1
+03 jeqzn r1 10      # Jump to line 10 if r2 == 0
+04 add r4 r3 r2     # r4 = r3 + r2
+05 write r3         # print what's in r3
+06 copy r2 r3       # set r2 equal to r3
+07 copy r3 r4       # set r3 equal to r4
+08 addn r1 -1       # reducing r1 by 1
+09 jumpn 03         # jump to line 4
+10 nop
+11 halt             # stop.
